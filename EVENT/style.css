@@ -1,0 +1,111 @@
+header {
+    background-color: rgb(226, 228, 228);
+}
+/* Style the button */
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer;
+    border-radius: 8px; 
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the pop-up */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+/* Style for the "Thank you" button inside the pop-up */
+#close-popup {
+    background-color: #f44336; /* Red background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Hover effect for the close button */
+#close-popup:hover {
+    background-color: #d32f2f;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Active click effect */
+button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+
+/* Pop-up overlay (initially hidden) */
+.popup-overlay {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+    z-index: 1; /* Sit on top */
+}
+
+/* Pop-up content */
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the pop-up */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+/* Style for the buttons inside the pop-up */
+#close-popup, #close-button {
+    background-color: #f44336; /* Red background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* Hover effect for the pop-up buttons */
+#close-popup:hover, #close-button:hover {
+    background-color: #d32f2f;
+}
+
+
+body {
+    background-color: bisque;
+}
+
+/* Add more custom styles here if needed */
